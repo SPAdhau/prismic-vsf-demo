@@ -1,0 +1,75 @@
+{
+  "slices": {
+    "components": {
+      "hero_banner": {
+        "library": "slices",
+        "id": "hero_banner",
+        "name": "HeroBanner",
+        "description": "HeroBanner",
+        "model": {
+          "id": "hero_banner",
+          "type": "SharedSlice",
+          "name": "HeroBanner",
+          "description": "HeroBanner",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroBanner",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "hero_banner",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Brand distributed users",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Ex qui consectetur magna laborum. Proident ipsum commodo nisi eu dolor commodo consequat culpa Lorem aliquip aliquip nulla. Ipsum commodo elit ea sit magna ea non Lorem aliqua labore consectetur veniam quis anim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
